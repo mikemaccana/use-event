@@ -17,8 +17,10 @@ NPM:
 `useEvent(event, handler, useCapture)`
 
 event: STRING - any event listener event as a string.
+
 handler: FUNCTION - function to be called when the event is triggered.
-useCapture: BOOL - determining passive event or not (defaults to false).
+
+useCapture: BOOLEAN - use a [passive event listeners](https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md) or not (defaults to `false`).
 
 Example:
 ```
